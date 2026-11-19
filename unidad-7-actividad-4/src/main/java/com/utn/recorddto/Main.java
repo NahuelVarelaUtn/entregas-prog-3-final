@@ -8,7 +8,7 @@ public class Main {
         // 1. Instanciar varios Producto y ProductoRecord
         Producto producto1 = new Producto("COD-001", "Teclado Mecánico", "TechSupply", 65000.0);
         Producto producto2 = new Producto("COD-002", "Mouse Inalámbrico", "PeriféricosSur", 28500.0);
-        Producto producto3 = new Producto("COD-003", "Monitor 24"", "VisualTech", 210000.0);
+        Producto producto3 = new Producto("COD-003", "Monitor 24\"", "VisualTech", 210000.0);
 
         ProductoRecord recordDirecto1 = new ProductoRecord("COD-101", "Webcam HD", 34000.0);
         ProductoRecord recordDirecto2 = new ProductoRecord("COD-102", "Auriculares USB", 42000.0);
