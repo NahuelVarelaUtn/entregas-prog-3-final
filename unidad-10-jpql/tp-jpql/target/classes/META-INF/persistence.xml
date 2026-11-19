@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+  <persistence-unit name="facturacionPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.utn.jpql.model.Rubro</class>
+    <class>com.utn.jpql.model.Marca</class>
+    <class>com.utn.jpql.model.Articulo</class>
+    <class>com.utn.jpql.model.Usuario</class>
+    <class>com.utn.jpql.model.PuntoVenta</class>
+    <class>com.utn.jpql.model.CondicionIva</class>
+    <class>com.utn.jpql.model.Cliente</class>
+    <class>com.utn.jpql.model.FacturaVenta</class>
+    <class>com.utn.jpql.model.FacturaVentaDetalle</class>
+    <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:mem:facturacion;DB_CLOSE_DELAY=-1"/>
+      <property name="jakarta.persistence.jdbc.user" value="sa"/>
+      <property name="jakarta.persistence.jdbc.password" value=""/>
+      <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+      <property name="hibernate.show_sql" value="false"/>
+    </properties>
+  </persistence-unit>
+</persistence>
