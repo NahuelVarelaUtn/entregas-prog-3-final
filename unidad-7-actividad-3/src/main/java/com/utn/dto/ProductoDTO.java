@@ -41,8 +41,8 @@ public class ProductoDTO {
     @Override
     public String toString() {
         return "ProductoDTO{" +
-                "codigo='" + codigo + ''' +
-                ", nombre='" + nombre + ''' +
+                "codigo='" + codigo + '\'' +
+                ", nombre='" + nombre + '\'' +
                 ", precio=" + precio +
                 '}';
     }
